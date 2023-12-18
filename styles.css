@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Items go to the next row when there's not enough space */
+  justify-content: center; /* Center items horizontally */
+ /* Adjust the gap between items as needed */
+}
+
+.item {
+  background-color: green;
+  color: black;
+  padding: 25px;
+
+}
